@@ -2198,3 +2198,121 @@ footer p {
     bottom: 14px;
   }
 }
+/* ===== Skills section colours: navy, blue and teal ===== */
+.skills::before {
+  background: rgba(11, 16, 32, 0.82);
+}
+
+.skills .section-label {
+  color: #14b8a6;
+}
+
+.skills h2 {
+  color: #ffffff;
+}
+
+.skills .skill-card {
+  background: rgba(20, 27, 52, 0.88);
+  border: 1px solid #26304f;
+}
+
+.skills .skill-card:hover {
+  border-color: #14b8a6;
+  box-shadow: 0 10px 30px rgba(20, 184, 166, 0.2);
+}
+
+.skills .skill-icon {
+  color: #3b82f6;
+}
+
+.skills .skill-card h3 {
+  color: #ffffff;
+}
+
+.skills .skill-card p {
+  color: #cbd5e1;
+}
+/* ===== About and Skills: same light background as Projects ===== */
+.about,
+.skills {
+  background-image: url('./assets/projects-bg.jpg');
+  background-size: cover;
+}
+
+.about {
+  background-position: center top;
+}
+
+.skills {
+  background-position: center bottom;
+}
+
+.about::before,
+.skills::before {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Dark text on the light background */
+.about h2,
+.skills h2 {
+  color: #111827;
+}
+
+.about .section-label {
+  color: #2563eb;
+}
+
+.skills .section-label {
+  color: #0f766e;
+}
+
+.about .about-content p,
+.about .about-lead {
+  color: #1f2937;
+}
+
+.about .about-subheading {
+  color: #111827;
+}
+/* ===== Skills: back to the code photo ===== */
+.skills {
+  background-image: url('./assets/skills-bg.jpg');
+  background-position: center;
+}
+
+.skills::before {
+  background: rgba(11, 16, 32, 0.6);
+}
+
+.skills h2 {
+  color: #ffffff;
+}
+
+.skills .section-label {
+  color: #14b8a6;
+}
+/* ===== About section: hardware and software photo ===== */
+.about {
+  background-image: url('./assets/about-bg2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.about::before {
+  background: rgba(8, 12, 28, 0.72);
+}
+
+/* White text again, for the dark background */
+.about h2,
+.about .about-subheading {
+  color: #ffffff;
+}
+
+.about .section-label {
+  color: #14b8a6;
+}
+
+.about .about-content p,
+.about .about-lead {
+  color: #e2e8f0;
+}
