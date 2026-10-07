@@ -2383,3 +2383,8 @@ background-clip: text;
   background: #2563eb;
   border-color: #2563eb;
 }
+/* X account card icon */
+.xaccount .social-icon {
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+}

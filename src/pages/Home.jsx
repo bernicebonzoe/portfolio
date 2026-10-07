@@ -225,18 +225,18 @@ export default function Home() {
             </div>
           </a>
 
-          <a
-            href="https://wa.me/233531963250"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="social-card whatsapp"
-          >
-            <span className="social-icon">☏</span>
-            <div>
-              <strong>WhatsApp</strong>
-              <small>Let's chat</small>
-            </div>
-          </a>
+         <a
+  href="https://x.com/sommez7"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="social-card xaccount"
+>
+  <span className="social-icon">X</span>
+  <div>
+    <strong>X</strong>
+    <small>@sommez7</small>
+  </div>
+</a>
 
           <a
             href="mailto:bonzoebernice@gmail.com"
