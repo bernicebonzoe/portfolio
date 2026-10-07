@@ -208,7 +208,7 @@ export default function Home() {
             <span className="social-icon">in</span>
             <div>
               <strong>LinkedIn</strong>
-              <small>Connect with me</small>
+              <small>Bernice Bonzoe</small>
             </div>
           </a>
 
@@ -221,7 +221,7 @@ export default function Home() {
             <span className="social-icon">◎</span>
             <div>
               <strong>Instagram</strong>
-              <small>Follow my journey</small>
+              <small>@sommez_jose</small>
             </div>
           </a>
 
@@ -245,7 +245,7 @@ export default function Home() {
             <span className="social-icon">@</span>
             <div>
               <strong>Gmail</strong>
-              <small>Send me an email</small>
+              <small>bonzoebernice@gmail.com</small>
             </div>
           </a>
         </div>

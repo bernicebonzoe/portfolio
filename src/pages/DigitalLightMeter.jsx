@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 export default function DigitalLightMeter() {
   return (
-    <main className="detail-page">
+    <main className="detail-page detail-lightmeter">
       <section className="section">
         <div className="detail-container">
           <span className="section-label">PROJECT</span>
@@ -34,11 +34,11 @@ export default function DigitalLightMeter() {
           </div>
 
           <div className="detail-actions">
-            <Link className="action-btn action-btn-primary" to="/">
-              ← Back to home
+            <Link className="action-btn action-btn-primary" to="/#projects">
+              ← Back to projects
             </Link>
-            <Link className="action-btn action-btn-outline" to="/#projects">
-              Back to projects
+            <Link className="action-btn action-btn-outline" to="/">
+              Back to home
             </Link>
           </div>
         </div>

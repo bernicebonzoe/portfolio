@@ -1047,7 +1047,8 @@ footer p {
     #55d9ff
   );
 
-  -webkit-background-clip: text;
+  -webkit-backgriund-clip: text;
+background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -1239,7 +1240,8 @@ footer p {
     #68d9ff
   );
 
-  -webkit-background-clip: text;
+  -webkit-backgriund-clip: text;
+background-clip: text;
   -webkit-text-fill-color: transparent;
 
   filter:
@@ -1699,7 +1701,8 @@ footer p {
 
 .notes-header h1 span {
   background: linear-gradient(90deg, #bd86ff, #ff82dc);
-  -webkit-background-clip: text;
+  -webkit-backgriund-clip: text;
+background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -2315,4 +2318,68 @@ footer p {
 .about .about-content p,
 .about .about-lead {
   color: #e2e8f0;
+}
+/* ===== Project detail pages: same photo as the card ===== */
+.detail-page {
+  position: relative;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.detail-kudilink {
+  background-image: url('./assets/kudilink-bg.jpg');
+}
+
+.detail-lightmeter {
+  background-image: url('./assets/lightmeter-bg.jpg');
+}
+
+.detail-bernicare {
+  background-image: url('./assets/bernicare-bg.jpg');
+}
+
+/* Dark layer so the text stays readable */
+.detail-page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 15, 30, 0.75);
+  z-index: 0;
+}
+
+.detail-page > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Text and cards on the photo */
+.detail-page h2,
+.detail-page h3 {
+  color: #ffffff;
+}
+
+.detail-page .section-label {
+  color: #60a5fa;
+}
+
+.detail-page .detail-card {
+  background: rgba(10, 15, 30, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(6px);
+}
+
+.detail-page .detail-card p {
+  color: #e2e8f0;
+}
+
+/* Make the outline button easy to see on the photo */
+.detail-page .action-btn-outline {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.detail-page .action-btn-outline:hover {
+  background: #2563eb;
+  border-color: #2563eb;
 }
